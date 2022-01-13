@@ -1,0 +1,82 @@
+Archivo de solución de Microsoft Visual Studio, versión de formato 12.00
+#Visual Studio Versión 16
+ Versión de VisualStudio = 16.0.31729.503
+ Versión mínima de VisualStudio = 10.0.40219.1
+Proyecto ( "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}" ) = "ImcApp.Android" , "ImcApp\ImcApp.Android\ImcApp.Android.csproj" , "{0F772365-87CD-407C-808F-1311BDF09965}"
+EndProject
+Proyecto ( "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}" ) = "ImcApp.iOS" , "ImcApp\ImcApp.iOS\ImcApp.iOS.csproj" , "{A3237379-3D8D-47BD-8958-B47E4DDC63EC}"
+EndProject
+Proyecto ( "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}" ) = "ImcApp" , "ImcApp\ImcApp\ImcApp.csproj" , "{6007A1FA-63FC-45AC-852B-8A15F4995698}"
+EndProject
+Global
+	GlobalSection ( SolutionConfigurationPlatforms ) = presolución
+		Depurar| Cualquier CPU = Depurar| Cualquier CPU
+		Depurar| iPhone = Depurar| iPhone
+		Depurar| iPhoneSimulator = Depurar| iPhoneSimulador
+		Lanzamiento| Cualquier CPU = Liberar| Cualquier CPU
+		Lanzamiento| iPhone = Liberar| iPhone
+		Lanzamiento| iPhoneSimulator = Liberar| iPhoneSimulador
+	EndGlobalSection
+	GlobalSection ( ProjectConfigurationPlatforms ) = postSolution
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| Cualquier CPU . ActiveCfg = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| Cualquier CPU . Construir . 0 = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| Cualquier CPU . Implementar . 0 = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| iPhone . ActiveCfg = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| iPhone . Construir . 0 = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| iPhone . Implementar . 0 = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| Simulador de iPhone . ActiveCfg = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| Simulador de iPhone . Construir . 0 = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Depurar| Simulador de iPhone . Implementar . 0 = Depurar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| Cualquier CPU . ActiveCfg = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| Cualquier CPU . Construir . 0 = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| Cualquier CPU . Implementar . 0 = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| iPhone . ActiveCfg = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| iPhone . Construir . 0 = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| iPhone . Implementar . 0 = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| Simulador de iPhone . ActiveCfg = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| Simulador de iPhone . Construir . 0 = Liberar| Cualquier CPU
+		{0F772365-87CD-407C-808F-1311BDF09965} . Lanzamiento| Simulador de iPhone . Implementar . 0 = Liberar| Cualquier CPU
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| Cualquier CPU . ActiveCfg = Depurar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| Cualquier CPU . Construir . 0 = Depurar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| Cualquier CPU . Implementar . 0 = Depurar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| iPhone . ActiveCfg = Depurar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| iPhone . Construir . 0 = Depurar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| iPhone . Implementar . 0 = Depurar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| Simulador de iPhone . ActiveCfg = Depurar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| Simulador de iPhone . Construir . 0 = Depurar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Depurar| Simulador de iPhone . Implementar . 0 = Depurar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| Cualquier CPU . ActiveCfg = Liberar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| Cualquier CPU . Construir . 0 = Liberar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| Cualquier CPU . Implementar . 0 = Liberar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| iPhone . ActiveCfg = Liberar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| iPhone . Construir . 0 = Liberar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| iPhone . Implementar . 0 = Liberar| iPhone
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| Simulador de iPhone . ActiveCfg = Liberar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| Simulador de iPhone . Construir . 0 = Liberar| iPhoneSimulador
+		{A3237379-3D8D-47BD-8958-B47E4DDC63EC} . Lanzamiento| Simulador de iPhone . Implementar . 0 = Liberar| iPhoneSimulador
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| Cualquier CPU . ActiveCfg = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| Cualquier CPU . Construir . 0 = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| Cualquier CPU . Implementar . 0 = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| iPhone . ActiveCfg = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| iPhone . Construir . 0 = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| iPhone . Implementar . 0 = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| Simulador de iPhone . ActiveCfg = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| Simulador de iPhone . Construir . 0 = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Depurar| Simulador de iPhone . Implementar . 0 = Depurar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| Cualquier CPU . ActiveCfg = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| Cualquier CPU . Construir . 0 = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| Cualquier CPU . Implementar . 0 = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| iPhone . ActiveCfg = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| iPhone . Construir . 0 = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| iPhone . Implementar . 0 = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| Simulador de iPhone . ActiveCfg = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| Simulador de iPhone . Construir . 0 = Liberar| Cualquier CPU
+		{6007A1FA-63FC-45AC-852B-8A15F4995698} . Lanzamiento| Simulador de iPhone . Implementar . 0 = Liberar| Cualquier CPU
+	EndGlobalSection
+	GlobalSection ( solutionProperties ) = presolución
+		HideSolutionNode =  FALSO
+	EndGlobalSection
+	GlobalSection ( ExtensibilityGlobals ) = postSolution
+		SolutionGuid =  {A57E6313-0D54-4504-955E-0F04FB09C60D}
+	EndGlobalSection
+EndGlobal

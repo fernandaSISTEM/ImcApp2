@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <x:String x:Key="TextoPlaceholderPeso">Peso en Kilogramos</x:String>
+    <x:String x:Key="TextoPlaceholderEstatura">Estatura en metros</x:String>
+    <x:String x:Key="TextoBotonCalcular">Calcular</x:String>
+    <x:String x:Key="TextoBotonLimpiar">Limpiar</x:String>
+    <x:String x:Key="TextoMensajeImc">El índice de masa corporal (IMC) de la persona es:</x:String>
+    <x:String x:Key="TextoMensajeSituacionNutricional">La situación nutricional de la persona es:</x:String>
+    <x:String x:Key="TextoPesoBajo">Peso bajo</x:String>
+    <x:String x:Key="TextoPesoNormal">Peso normal</x:String>
+    <x:String x:Key="TextoSobrepeso">Sobrepeso</x:String>
+    <x:String x:Key="TextoObesidad">Obesidad</x:String>
+    <x:String x:Key="TextoObesidadExtrema">Obesidad Extrema</x:String>
+
+     <Style TargetType="Frame">
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="BorderColor" Value="LightGray"/>
+        <Setter Property="Margin" Value="16"/>
+    </Style>
+    <Style TargetType="Entry">
+        <Setter Property="FontSize" Value="Medium"/>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="FontSize" Value="Medium"/>
+        <Setter Property="WidthRequest" Value="130"/>
+    </Style>
+
+    <Style x:Key="EstiloMensaje" TargetType="Label">
+        <Setter Property="FontSize" Value="Medium"/>
+    </Style>
+    <Style x:Key="EstiloResultado" TargetType="Label">
+        <Setter Property="FontSize" Value="32"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+    </Style>
+</ResourceDictionary>

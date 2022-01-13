@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="ImcApp.Views.MainPage">
+
+    <StackLayout>
+        <Frame>
+            <StackLayout>
+                <Entry x:Name="pesoEntry"
+                       Placeholder="{DynamicResource TextoPlaceholderPeso}"
+                       Text="{Binding Peso}"/>
+                <Entry x:Name="estaturaEntry"
+                       Placeholder="{DynamicResource TextoPlaceholderEstatura}"
+                       Text="{Binding Estatura}"/>
+            </StackLayout>
+        </Frame>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="{DynamicResource TextoBotonCalcular}"
+                    x:Name="CalcularButton"
+                    Command="{Binding CalcularCommand}"/>
+            <Button Text="{DynamicResource TextoBotonLimpiar}" 
+                    x:Name="LimpiarButton" 
+                    Command="{Binding LimpiarCommand}"/>
+        </StackLayout>
+
+        <Frame>
+            <StackLayout>
+                <Label Text="{DynamicResource TextoMensajeImc}"
+                       Style="{StaticResource EstiloMensaje}"/>
+                <Label Text="{Binding Imc, StringFormat='{0:F4}'}"
+                       Style="{StaticResource EstiloResultado}"
+                       x:Name="ImcLabel"/>
+                <Label Text="{DynamicResource TextoMensajeSituacionNutricional}"
+                       Style="{StaticResource EstiloMensaje}"/>
+                <Label Text="{Binding SituacionNutricional}"
+                       Style="{StaticResource EstiloResultado}"
+                       x:Name="SituacionNutricionalLabel"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

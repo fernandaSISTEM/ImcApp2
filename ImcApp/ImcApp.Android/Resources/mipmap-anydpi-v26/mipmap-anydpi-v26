@@ -1,0 +1,5 @@
+<? versión xml = " 1.0 " codificación = " utf-8 " ?>
+< xmlns de icono adaptable  : android = " http://schemas.android.com/apk/res/android " >
+    < fondo  android : dibujable = " @color/launcher_background " />
+    < Android en primer plano  : dibujable = " @mipmap/launcher_foreground " />
+</ adaptativo-icono >
